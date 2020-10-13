@@ -38,7 +38,7 @@ untermstring \"{stringtext}*
 multlnstring \"{stringtext}*{newline}+({stringtext}|{newline})*\" 
 
 commenttext [^*]|[*][^/] 
-comment      \/\*{commenttext}*\*\/ 
+comment      \/\/.*
 multlncomment \/\*({newline}|{commenttext})*\*\/
 untermcomment \/\*({newline}|{commenttext})*
 identifier      [a-zA-z][a-zA-Z0-9]*
